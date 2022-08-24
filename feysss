@@ -1,0 +1,16 @@
+  def initialize(string)
+    @string = string
+  end
+
+  def text
+    @string
+  end
+end
+
+class TodoList
+  def initialize
+    @todolist = []
+  end
+
+  def add(todo)
+    @todolist.push(todo)
